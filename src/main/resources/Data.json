@@ -1,0 +1,78 @@
+{
+  "region": "global",
+  "metro": "AM",
+  "ibx": {
+    "AM3": [
+      {
+        "ibx": "AM3",
+        "switchName": "se1.am3",
+        "cspName": "aws",
+        "vlanCount": 72,
+        "usedBandwidth": 8.0,
+        "portName": "dxcon-fgfkwpow",
+        "portPriority": "Primary",
+        "physicalPortNames": [
+          "xe-1/1/5"
+        ],
+        "percentageAvailableBandwidth": 80.0,
+        "totalBandwidth": 10.0,
+        "availableBandwidth": 2.0
+      },
+      {
+        "ibx": "AM3",
+        "switchName": "se2.am3",
+        "cspName": "aws",
+        "vlanCount": 41,
+        "usedBandwidth": 5.0,
+        "portName": "dxcon-fguga4m4",
+        "portPriority": "Secondary",
+        "physicalPortNames": [
+          "xe-1/1/5"
+        ],
+        "percentageAvailableBandwidth": 50.0,
+        "totalBandwidth": 10.0,
+        "availableBandwidth": 5.0
+      }
+    ],
+    "AM4": [
+      {
+        "ibx": "AM4",
+        "switchName": "se2.am4",
+        "cspName": "aws",
+        "vlanCount": 26,
+        "usedBandwidth": 43.0,
+        "portName": "dxlag-fgmcqbhi",
+        "portPriority": "Secondary",
+        "physicalPortNames": [
+          "xe-1/3/1",
+          "xe-1/1/2",
+          "xe-0/2/2",
+          "xe-0/1/3",
+          "xe-1/0/5"
+        ],
+        "percentageAvailableBandwidth": 86.0,
+        "totalBandwidth": 50.0,
+        "availableBandwidth": 7.0
+      },
+      {
+        "ibx": "AM4",
+        "switchName": "se2.am4",
+        "cspName": "aws",
+        "vlanCount": 0,
+        "usedBandwidth": 0.0,
+        "portName": "dxlag-fglki6us",
+        "portPriority": "Secondary",
+        "physicalPortNames": [
+          "xe-1/3/1",
+          "xe-1/1/2",
+          "xe-0/2/2",
+          "xe-0/1/3",
+          "xe-1/0/5"
+        ],
+        "percentageAvailableBandwidth": 86.0,
+        "totalBandwidth": 50.0,
+        "availableBandwidth": 7.0
+      }
+    ]
+  }
+}

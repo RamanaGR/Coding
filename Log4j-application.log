@@ -1,0 +1,228 @@
+2020-12-09 11:13:26,192 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: best-match
+2020-12-09 11:13:26,235 DEBUG [main] RequestAuthCache:75 - Auth cache not set in the context
+2020-12-09 11:13:26,245 DEBUG [main] PoolingHttpClientConnectionManager:215 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-12-09 11:13:26,351 DEBUG [main] PoolingHttpClientConnectionManager:246 - Connection leased: [id: 0][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-12-09 11:13:26,381 DEBUG [main] MainClientExec:217 - Opening connection {s}->https://api.github.com:443
+2020-12-09 11:13:26,494 DEBUG [main] HttpClientConnectionOperator:113 - Connecting to api.github.com/13.234.168.60:443
+2020-12-09 11:13:27,470 DEBUG [main] HttpClientConnectionOperator:127 - Connection established 192.168.225.41:58438<->13.234.168.60:443
+2020-12-09 11:13:27,473 DEBUG [main] MainClientExec:238 - Executing request GET /user HTTP/1.1
+2020-12-09 11:13:27,475 DEBUG [main] MainClientExec:243 - Target auth state: UNCHALLENGED
+2020-12-09 11:13:27,476 DEBUG [main] MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2020-12-09 11:13:27,482 DEBUG [main] headers:124 - http-outgoing-0 >> GET /user HTTP/1.1
+2020-12-09 11:13:27,482 DEBUG [main] headers:127 - http-outgoing-0 >> Host: api.github.com
+2020-12-09 11:13:27,483 DEBUG [main] headers:127 - http-outgoing-0 >> Connection: Keep-Alive
+2020-12-09 11:13:27,484 DEBUG [main] headers:127 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2020-12-09 11:13:27,485 DEBUG [main] headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-12-09 11:13:27,485 DEBUG [main] wire:72 - http-outgoing-0 >> "GET /user HTTP/1.1[\r][\n]"
+2020-12-09 11:13:27,491 DEBUG [main] wire:72 - http-outgoing-0 >> "Host: api.github.com[\r][\n]"
+2020-12-09 11:13:27,492 DEBUG [main] wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 11:13:27,492 DEBUG [main] wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2020-12-09 11:13:27,493 DEBUG [main] wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 11:13:27,493 DEBUG [main] wire:72 - http-outgoing-0 >> "[\r][\n]"
+2020-12-09 11:13:27,820 DEBUG [main] wire:72 - http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2020-12-09 11:13:27,821 DEBUG [main] wire:72 - http-outgoing-0 << "date: Wed, 09 Dec 2020 19:13:27 GMT[\r][\n]"
+2020-12-09 11:13:27,822 DEBUG [main] wire:72 - http-outgoing-0 << "content-type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 11:13:27,822 DEBUG [main] wire:72 - http-outgoing-0 << "content-length: 131[\r][\n]"
+2020-12-09 11:13:27,823 DEBUG [main] wire:72 - http-outgoing-0 << "server: GitHub.com[\r][\n]"
+2020-12-09 11:13:27,823 DEBUG [main] wire:72 - http-outgoing-0 << "status: 401 Unauthorized[\r][\n]"
+2020-12-09 11:13:27,824 DEBUG [main] wire:72 - http-outgoing-0 << "x-github-media-type: github.v3; format=json[\r][\n]"
+2020-12-09 11:13:27,824 DEBUG [main] wire:72 - http-outgoing-0 << "access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset[\r][\n]"
+2020-12-09 11:13:27,825 DEBUG [main] wire:72 - http-outgoing-0 << "access-control-allow-origin: *[\r][\n]"
+2020-12-09 11:13:27,825 DEBUG [main] wire:72 - http-outgoing-0 << "strict-transport-security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-12-09 11:13:27,826 DEBUG [main] wire:72 - http-outgoing-0 << "x-frame-options: deny[\r][\n]"
+2020-12-09 11:13:27,826 DEBUG [main] wire:72 - http-outgoing-0 << "x-content-type-options: nosniff[\r][\n]"
+2020-12-09 11:13:27,827 DEBUG [main] wire:72 - http-outgoing-0 << "x-xss-protection: 1; mode=block[\r][\n]"
+2020-12-09 11:13:27,827 DEBUG [main] wire:72 - http-outgoing-0 << "referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-12-09 11:13:27,828 DEBUG [main] wire:72 - http-outgoing-0 << "content-security-policy: default-src 'none'[\r][\n]"
+2020-12-09 11:13:27,828 DEBUG [main] wire:72 - http-outgoing-0 << "vary: Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+2020-12-09 11:13:27,829 DEBUG [main] wire:72 - http-outgoing-0 << "X-Ratelimit-Limit: 60[\r][\n]"
+2020-12-09 11:13:27,829 DEBUG [main] wire:72 - http-outgoing-0 << "X-Ratelimit-Remaining: 56[\r][\n]"
+2020-12-09 11:13:27,830 DEBUG [main] wire:72 - http-outgoing-0 << "X-Ratelimit-Reset: 1607544752[\r][\n]"
+2020-12-09 11:13:27,830 DEBUG [main] wire:72 - http-outgoing-0 << "X-Ratelimit-Used: 4[\r][\n]"
+2020-12-09 11:13:27,830 DEBUG [main] wire:72 - http-outgoing-0 << "X-GitHub-Request-Id: E446:783A:2F175B:3C2704:5FD121D7[\r][\n]"
+2020-12-09 11:13:27,831 DEBUG [main] wire:72 - http-outgoing-0 << "[\r][\n]"
+2020-12-09 11:13:27,831 DEBUG [main] wire:86 - http-outgoing-0 << "{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#get-the-authenticated-user"}"
+2020-12-09 11:13:27,840 DEBUG [main] headers:113 - http-outgoing-0 << HTTP/1.1 401 Unauthorized
+2020-12-09 11:13:27,840 DEBUG [main] headers:116 - http-outgoing-0 << date: Wed, 09 Dec 2020 19:13:27 GMT
+2020-12-09 11:13:27,841 DEBUG [main] headers:116 - http-outgoing-0 << content-type: application/json; charset=utf-8
+2020-12-09 11:13:27,841 DEBUG [main] headers:116 - http-outgoing-0 << content-length: 131
+2020-12-09 11:13:27,842 DEBUG [main] headers:116 - http-outgoing-0 << server: GitHub.com
+2020-12-09 11:13:27,842 DEBUG [main] headers:116 - http-outgoing-0 << status: 401 Unauthorized
+2020-12-09 11:13:27,842 DEBUG [main] headers:116 - http-outgoing-0 << x-github-media-type: github.v3; format=json
+2020-12-09 11:13:27,843 DEBUG [main] headers:116 - http-outgoing-0 << access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+2020-12-09 11:13:27,843 DEBUG [main] headers:116 - http-outgoing-0 << access-control-allow-origin: *
+2020-12-09 11:13:27,843 DEBUG [main] headers:116 - http-outgoing-0 << strict-transport-security: max-age=31536000; includeSubdomains; preload
+2020-12-09 11:13:27,844 DEBUG [main] headers:116 - http-outgoing-0 << x-frame-options: deny
+2020-12-09 11:13:27,844 DEBUG [main] headers:116 - http-outgoing-0 << x-content-type-options: nosniff
+2020-12-09 11:13:27,845 DEBUG [main] headers:116 - http-outgoing-0 << x-xss-protection: 1; mode=block
+2020-12-09 11:13:27,845 DEBUG [main] headers:116 - http-outgoing-0 << referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-12-09 11:13:27,845 DEBUG [main] headers:116 - http-outgoing-0 << content-security-policy: default-src 'none'
+2020-12-09 11:13:27,846 DEBUG [main] headers:116 - http-outgoing-0 << vary: Accept-Encoding, Accept, X-Requested-With
+2020-12-09 11:13:27,846 DEBUG [main] headers:116 - http-outgoing-0 << X-Ratelimit-Limit: 60
+2020-12-09 11:13:27,847 DEBUG [main] headers:116 - http-outgoing-0 << X-Ratelimit-Remaining: 56
+2020-12-09 11:13:27,847 DEBUG [main] headers:116 - http-outgoing-0 << X-Ratelimit-Reset: 1607544752
+2020-12-09 11:13:27,848 DEBUG [main] headers:116 - http-outgoing-0 << X-Ratelimit-Used: 4
+2020-12-09 11:13:27,848 DEBUG [main] headers:116 - http-outgoing-0 << X-GitHub-Request-Id: E446:783A:2F175B:3C2704:5FD121D7
+2020-12-09 11:13:27,859 DEBUG [main] MainClientExec:267 - Connection can be kept alive indefinitely
+2020-12-09 11:13:27,859 DEBUG [main] HttpAuthenticator:77 - Authentication required
+2020-12-09 11:13:27,860 DEBUG [main] HttpAuthenticator:107 - api.github.com:443 requested authentication
+2020-12-09 11:13:27,860 DEBUG [main] HttpAuthenticator:111 - Response contains no authentication challenges
+2020-12-09 11:13:27,900 DEBUG [main] PoolingHttpClientConnectionManager:345 - Connection manager is shutting down
+2020-12-09 11:13:27,900 DEBUG [main] DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-12-09 11:13:27,905 DEBUG [main] DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-12-09 11:13:27,906 DEBUG [main] PoolingHttpClientConnectionManager:351 - Connection manager shut down
+2020-12-09 11:13:27,906 DEBUG [main] DefaultManagedHttpClientConnection:87 - http-outgoing-0: Shutdown connection
+2020-12-09 11:13:27,916 DEBUG [main] MainClientExec:126 - Connection discarded
+2020-12-09 11:13:27,919 DEBUG [main] PoolingHttpClientConnectionManager:282 - Connection released: [id: 0][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-12-09 11:13:27,949 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: best-match
+2020-12-09 11:13:27,950 DEBUG [main] RequestAuthCache:75 - Auth cache not set in the context
+2020-12-09 11:13:27,952 DEBUG [main] PoolingHttpClientConnectionManager:215 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-12-09 11:13:27,952 DEBUG [main] PoolingHttpClientConnectionManager:246 - Connection leased: [id: 1][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-12-09 11:13:27,953 DEBUG [main] MainClientExec:217 - Opening connection {s}->https://api.github.com:443
+2020-12-09 11:13:27,956 DEBUG [main] HttpClientConnectionOperator:113 - Connecting to api.github.com/13.234.168.60:443
+2020-12-09 11:13:28,227 DEBUG [main] HttpClientConnectionOperator:127 - Connection established 192.168.225.41:58442<->13.234.168.60:443
+2020-12-09 11:13:28,227 DEBUG [main] MainClientExec:238 - Executing request GET /user/followers HTTP/1.1
+2020-12-09 11:13:28,228 DEBUG [main] MainClientExec:243 - Target auth state: UNCHALLENGED
+2020-12-09 11:13:28,228 DEBUG [main] MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2020-12-09 11:13:28,229 DEBUG [main] headers:124 - http-outgoing-1 >> GET /user/followers HTTP/1.1
+2020-12-09 11:13:28,229 DEBUG [main] headers:127 - http-outgoing-1 >> Host: api.github.com
+2020-12-09 11:13:28,230 DEBUG [main] headers:127 - http-outgoing-1 >> Connection: Keep-Alive
+2020-12-09 11:13:28,230 DEBUG [main] headers:127 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2020-12-09 11:13:28,231 DEBUG [main] headers:127 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-12-09 11:13:28,231 DEBUG [main] wire:72 - http-outgoing-1 >> "GET /user/followers HTTP/1.1[\r][\n]"
+2020-12-09 11:13:28,232 DEBUG [main] wire:72 - http-outgoing-1 >> "Host: api.github.com[\r][\n]"
+2020-12-09 11:13:28,232 DEBUG [main] wire:72 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 11:13:28,232 DEBUG [main] wire:72 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2020-12-09 11:13:28,233 DEBUG [main] wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 11:13:28,233 DEBUG [main] wire:72 - http-outgoing-1 >> "[\r][\n]"
+2020-12-09 11:13:28,529 DEBUG [main] wire:72 - http-outgoing-1 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2020-12-09 11:13:28,529 DEBUG [main] wire:72 - http-outgoing-1 << "date: Wed, 09 Dec 2020 19:13:28 GMT[\r][\n]"
+2020-12-09 11:13:28,530 DEBUG [main] wire:72 - http-outgoing-1 << "content-type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 11:13:28,530 DEBUG [main] wire:72 - http-outgoing-1 << "content-length: 145[\r][\n]"
+2020-12-09 11:13:28,531 DEBUG [main] wire:72 - http-outgoing-1 << "server: GitHub.com[\r][\n]"
+2020-12-09 11:13:28,531 DEBUG [main] wire:72 - http-outgoing-1 << "status: 401 Unauthorized[\r][\n]"
+2020-12-09 11:13:28,532 DEBUG [main] wire:72 - http-outgoing-1 << "x-github-media-type: github.v3; format=json[\r][\n]"
+2020-12-09 11:13:28,533 DEBUG [main] wire:72 - http-outgoing-1 << "access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset[\r][\n]"
+2020-12-09 11:13:28,533 DEBUG [main] wire:72 - http-outgoing-1 << "access-control-allow-origin: *[\r][\n]"
+2020-12-09 11:13:28,534 DEBUG [main] wire:72 - http-outgoing-1 << "strict-transport-security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-12-09 11:13:28,534 DEBUG [main] wire:72 - http-outgoing-1 << "x-frame-options: deny[\r][\n]"
+2020-12-09 11:13:28,534 DEBUG [main] wire:72 - http-outgoing-1 << "x-content-type-options: nosniff[\r][\n]"
+2020-12-09 11:13:28,539 DEBUG [main] wire:72 - http-outgoing-1 << "x-xss-protection: 1; mode=block[\r][\n]"
+2020-12-09 11:13:28,539 DEBUG [main] wire:72 - http-outgoing-1 << "referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-12-09 11:13:28,540 DEBUG [main] wire:72 - http-outgoing-1 << "content-security-policy: default-src 'none'[\r][\n]"
+2020-12-09 11:13:28,540 DEBUG [main] wire:72 - http-outgoing-1 << "vary: Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+2020-12-09 11:13:28,541 DEBUG [main] wire:72 - http-outgoing-1 << "X-Ratelimit-Limit: 60[\r][\n]"
+2020-12-09 11:13:28,541 DEBUG [main] wire:72 - http-outgoing-1 << "X-Ratelimit-Remaining: 55[\r][\n]"
+2020-12-09 11:13:28,541 DEBUG [main] wire:72 - http-outgoing-1 << "X-Ratelimit-Reset: 1607544753[\r][\n]"
+2020-12-09 11:13:28,542 DEBUG [main] wire:72 - http-outgoing-1 << "X-Ratelimit-Used: 5[\r][\n]"
+2020-12-09 11:13:28,542 DEBUG [main] wire:72 - http-outgoing-1 << "X-GitHub-Request-Id: E44A:2DFB:2F7B6F:3CC37F:5FD121D8[\r][\n]"
+2020-12-09 11:13:28,543 DEBUG [main] wire:72 - http-outgoing-1 << "[\r][\n]"
+2020-12-09 11:13:28,543 DEBUG [main] wire:86 - http-outgoing-1 << "{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/users#list-followers-of-the-authenticated-user"}"
+2020-12-09 11:13:28,544 DEBUG [main] headers:113 - http-outgoing-1 << HTTP/1.1 401 Unauthorized
+2020-12-09 11:13:28,545 DEBUG [main] headers:116 - http-outgoing-1 << date: Wed, 09 Dec 2020 19:13:28 GMT
+2020-12-09 11:13:28,545 DEBUG [main] headers:116 - http-outgoing-1 << content-type: application/json; charset=utf-8
+2020-12-09 11:13:28,545 DEBUG [main] headers:116 - http-outgoing-1 << content-length: 145
+2020-12-09 11:13:28,546 DEBUG [main] headers:116 - http-outgoing-1 << server: GitHub.com
+2020-12-09 11:13:28,546 DEBUG [main] headers:116 - http-outgoing-1 << status: 401 Unauthorized
+2020-12-09 11:13:28,546 DEBUG [main] headers:116 - http-outgoing-1 << x-github-media-type: github.v3; format=json
+2020-12-09 11:13:28,547 DEBUG [main] headers:116 - http-outgoing-1 << access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+2020-12-09 11:13:28,548 DEBUG [main] headers:116 - http-outgoing-1 << access-control-allow-origin: *
+2020-12-09 11:13:28,548 DEBUG [main] headers:116 - http-outgoing-1 << strict-transport-security: max-age=31536000; includeSubdomains; preload
+2020-12-09 11:13:28,549 DEBUG [main] headers:116 - http-outgoing-1 << x-frame-options: deny
+2020-12-09 11:13:28,549 DEBUG [main] headers:116 - http-outgoing-1 << x-content-type-options: nosniff
+2020-12-09 11:13:28,549 DEBUG [main] headers:116 - http-outgoing-1 << x-xss-protection: 1; mode=block
+2020-12-09 11:13:28,550 DEBUG [main] headers:116 - http-outgoing-1 << referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-12-09 11:13:28,550 DEBUG [main] headers:116 - http-outgoing-1 << content-security-policy: default-src 'none'
+2020-12-09 11:13:28,550 DEBUG [main] headers:116 - http-outgoing-1 << vary: Accept-Encoding, Accept, X-Requested-With
+2020-12-09 11:13:28,551 DEBUG [main] headers:116 - http-outgoing-1 << X-Ratelimit-Limit: 60
+2020-12-09 11:13:28,551 DEBUG [main] headers:116 - http-outgoing-1 << X-Ratelimit-Remaining: 55
+2020-12-09 11:13:28,552 DEBUG [main] headers:116 - http-outgoing-1 << X-Ratelimit-Reset: 1607544753
+2020-12-09 11:13:28,553 DEBUG [main] headers:116 - http-outgoing-1 << X-Ratelimit-Used: 5
+2020-12-09 11:13:28,553 DEBUG [main] headers:116 - http-outgoing-1 << X-GitHub-Request-Id: E44A:2DFB:2F7B6F:3CC37F:5FD121D8
+2020-12-09 11:13:28,554 DEBUG [main] MainClientExec:267 - Connection can be kept alive indefinitely
+2020-12-09 11:13:28,554 DEBUG [main] HttpAuthenticator:77 - Authentication required
+2020-12-09 11:13:28,554 DEBUG [main] HttpAuthenticator:107 - api.github.com:443 requested authentication
+2020-12-09 11:13:28,555 DEBUG [main] HttpAuthenticator:111 - Response contains no authentication challenges
+2020-12-09 11:13:28,557 DEBUG [main] PoolingHttpClientConnectionManager:345 - Connection manager is shutting down
+2020-12-09 11:13:28,558 DEBUG [main] DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2020-12-09 11:13:28,559 DEBUG [main] DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2020-12-09 11:13:28,559 DEBUG [main] PoolingHttpClientConnectionManager:351 - Connection manager shut down
+2020-12-09 11:13:28,560 DEBUG [main] DefaultManagedHttpClientConnection:87 - http-outgoing-1: Shutdown connection
+2020-12-09 11:13:28,560 DEBUG [main] MainClientExec:126 - Connection discarded
+2020-12-09 11:13:28,561 DEBUG [main] PoolingHttpClientConnectionManager:282 - Connection released: [id: 1][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-12-09 11:13:28,566 DEBUG [main] RequestAddCookies:122 - CookieSpec selected: best-match
+2020-12-09 11:13:28,566 DEBUG [main] RequestAuthCache:75 - Auth cache not set in the context
+2020-12-09 11:13:28,569 DEBUG [main] PoolingHttpClientConnectionManager:215 - Connection request: [route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-12-09 11:13:28,570 DEBUG [main] PoolingHttpClientConnectionManager:246 - Connection leased: [id: 2][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-12-09 11:13:28,571 DEBUG [main] MainClientExec:217 - Opening connection {s}->https://api.github.com:443
+2020-12-09 11:13:28,572 DEBUG [main] HttpClientConnectionOperator:113 - Connecting to api.github.com/13.234.168.60:443
+2020-12-09 11:13:28,814 DEBUG [main] HttpClientConnectionOperator:127 - Connection established 192.168.225.41:58443<->13.234.168.60:443
+2020-12-09 11:13:28,815 DEBUG [main] MainClientExec:238 - Executing request GET /notifications HTTP/1.1
+2020-12-09 11:13:28,815 DEBUG [main] MainClientExec:243 - Target auth state: UNCHALLENGED
+2020-12-09 11:13:28,816 DEBUG [main] MainClientExec:249 - Proxy auth state: UNCHALLENGED
+2020-12-09 11:13:28,817 DEBUG [main] headers:124 - http-outgoing-2 >> GET /notifications HTTP/1.1
+2020-12-09 11:13:28,817 DEBUG [main] headers:127 - http-outgoing-2 >> Host: api.github.com
+2020-12-09 11:13:28,818 DEBUG [main] headers:127 - http-outgoing-2 >> Connection: Keep-Alive
+2020-12-09 11:13:28,820 DEBUG [main] headers:127 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.3.3 (java 1.5)
+2020-12-09 11:13:28,821 DEBUG [main] headers:127 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2020-12-09 11:13:28,821 DEBUG [main] wire:72 - http-outgoing-2 >> "GET /notifications HTTP/1.1[\r][\n]"
+2020-12-09 11:13:28,821 DEBUG [main] wire:72 - http-outgoing-2 >> "Host: api.github.com[\r][\n]"
+2020-12-09 11:13:28,822 DEBUG [main] wire:72 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2020-12-09 11:13:28,822 DEBUG [main] wire:72 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.3.3 (java 1.5)[\r][\n]"
+2020-12-09 11:13:28,823 DEBUG [main] wire:72 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-12-09 11:13:28,823 DEBUG [main] wire:72 - http-outgoing-2 >> "[\r][\n]"
+2020-12-09 11:13:29,160 DEBUG [main] wire:72 - http-outgoing-2 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+2020-12-09 11:13:29,161 DEBUG [main] wire:72 - http-outgoing-2 << "date: Wed, 09 Dec 2020 19:13:29 GMT[\r][\n]"
+2020-12-09 11:13:29,161 DEBUG [main] wire:72 - http-outgoing-2 << "content-type: application/json; charset=utf-8[\r][\n]"
+2020-12-09 11:13:29,161 DEBUG [main] wire:72 - http-outgoing-2 << "content-length: 153[\r][\n]"
+2020-12-09 11:13:29,162 DEBUG [main] wire:72 - http-outgoing-2 << "server: GitHub.com[\r][\n]"
+2020-12-09 11:13:29,162 DEBUG [main] wire:72 - http-outgoing-2 << "status: 401 Unauthorized[\r][\n]"
+2020-12-09 11:13:29,163 DEBUG [main] wire:72 - http-outgoing-2 << "x-github-media-type: github.v3; format=json[\r][\n]"
+2020-12-09 11:13:29,163 DEBUG [main] wire:72 - http-outgoing-2 << "access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset[\r][\n]"
+2020-12-09 11:13:29,163 DEBUG [main] wire:72 - http-outgoing-2 << "access-control-allow-origin: *[\r][\n]"
+2020-12-09 11:13:29,164 DEBUG [main] wire:72 - http-outgoing-2 << "strict-transport-security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2020-12-09 11:13:29,164 DEBUG [main] wire:72 - http-outgoing-2 << "x-frame-options: deny[\r][\n]"
+2020-12-09 11:13:29,164 DEBUG [main] wire:72 - http-outgoing-2 << "x-content-type-options: nosniff[\r][\n]"
+2020-12-09 11:13:29,165 DEBUG [main] wire:72 - http-outgoing-2 << "x-xss-protection: 1; mode=block[\r][\n]"
+2020-12-09 11:13:29,165 DEBUG [main] wire:72 - http-outgoing-2 << "referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2020-12-09 11:13:29,166 DEBUG [main] wire:72 - http-outgoing-2 << "content-security-policy: default-src 'none'[\r][\n]"
+2020-12-09 11:13:29,166 DEBUG [main] wire:72 - http-outgoing-2 << "vary: Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+2020-12-09 11:13:29,166 DEBUG [main] wire:72 - http-outgoing-2 << "X-Ratelimit-Limit: 60[\r][\n]"
+2020-12-09 11:13:29,167 DEBUG [main] wire:72 - http-outgoing-2 << "X-Ratelimit-Remaining: 54[\r][\n]"
+2020-12-09 11:13:29,167 DEBUG [main] wire:72 - http-outgoing-2 << "X-Ratelimit-Reset: 1607544753[\r][\n]"
+2020-12-09 11:13:29,168 DEBUG [main] wire:72 - http-outgoing-2 << "X-Ratelimit-Used: 6[\r][\n]"
+2020-12-09 11:13:29,168 DEBUG [main] wire:72 - http-outgoing-2 << "X-GitHub-Request-Id: E44B:51F2:C81C5:100315:5FD121D8[\r][\n]"
+2020-12-09 11:13:29,168 DEBUG [main] wire:72 - http-outgoing-2 << "[\r][\n]"
+2020-12-09 11:13:29,168 DEBUG [main] wire:86 - http-outgoing-2 << "{"message":"Requires authentication","documentation_url":"https://docs.github.com/rest/reference/activity#list-notifications-for-the-authenticated-user"}"
+2020-12-09 11:13:29,169 DEBUG [main] headers:113 - http-outgoing-2 << HTTP/1.1 401 Unauthorized
+2020-12-09 11:13:29,169 DEBUG [main] headers:116 - http-outgoing-2 << date: Wed, 09 Dec 2020 19:13:29 GMT
+2020-12-09 11:13:29,170 DEBUG [main] headers:116 - http-outgoing-2 << content-type: application/json; charset=utf-8
+2020-12-09 11:13:29,170 DEBUG [main] headers:116 - http-outgoing-2 << content-length: 153
+2020-12-09 11:13:29,170 DEBUG [main] headers:116 - http-outgoing-2 << server: GitHub.com
+2020-12-09 11:13:29,171 DEBUG [main] headers:116 - http-outgoing-2 << status: 401 Unauthorized
+2020-12-09 11:13:29,171 DEBUG [main] headers:116 - http-outgoing-2 << x-github-media-type: github.v3; format=json
+2020-12-09 11:13:29,171 DEBUG [main] headers:116 - http-outgoing-2 << access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
+2020-12-09 11:13:29,171 DEBUG [main] headers:116 - http-outgoing-2 << access-control-allow-origin: *
+2020-12-09 11:13:29,172 DEBUG [main] headers:116 - http-outgoing-2 << strict-transport-security: max-age=31536000; includeSubdomains; preload
+2020-12-09 11:13:29,172 DEBUG [main] headers:116 - http-outgoing-2 << x-frame-options: deny
+2020-12-09 11:13:29,172 DEBUG [main] headers:116 - http-outgoing-2 << x-content-type-options: nosniff
+2020-12-09 11:13:29,173 DEBUG [main] headers:116 - http-outgoing-2 << x-xss-protection: 1; mode=block
+2020-12-09 11:13:29,173 DEBUG [main] headers:116 - http-outgoing-2 << referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2020-12-09 11:13:29,173 DEBUG [main] headers:116 - http-outgoing-2 << content-security-policy: default-src 'none'
+2020-12-09 11:13:29,174 DEBUG [main] headers:116 - http-outgoing-2 << vary: Accept-Encoding, Accept, X-Requested-With
+2020-12-09 11:13:29,174 DEBUG [main] headers:116 - http-outgoing-2 << X-Ratelimit-Limit: 60
+2020-12-09 11:13:29,175 DEBUG [main] headers:116 - http-outgoing-2 << X-Ratelimit-Remaining: 54
+2020-12-09 11:13:29,175 DEBUG [main] headers:116 - http-outgoing-2 << X-Ratelimit-Reset: 1607544753
+2020-12-09 11:13:29,175 DEBUG [main] headers:116 - http-outgoing-2 << X-Ratelimit-Used: 6
+2020-12-09 11:13:29,176 DEBUG [main] headers:116 - http-outgoing-2 << X-GitHub-Request-Id: E44B:51F2:C81C5:100315:5FD121D8
+2020-12-09 11:13:29,176 DEBUG [main] MainClientExec:267 - Connection can be kept alive indefinitely
+2020-12-09 11:13:29,177 DEBUG [main] HttpAuthenticator:77 - Authentication required
+2020-12-09 11:13:29,177 DEBUG [main] HttpAuthenticator:107 - api.github.com:443 requested authentication
+2020-12-09 11:13:29,177 DEBUG [main] HttpAuthenticator:111 - Response contains no authentication challenges
+2020-12-09 11:13:29,179 DEBUG [main] PoolingHttpClientConnectionManager:345 - Connection manager is shutting down
+2020-12-09 11:13:29,180 DEBUG [main] DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2020-12-09 11:13:29,181 DEBUG [main] DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2020-12-09 11:13:29,181 DEBUG [main] PoolingHttpClientConnectionManager:351 - Connection manager shut down
+2020-12-09 11:13:29,181 DEBUG [main] DefaultManagedHttpClientConnection:87 - http-outgoing-2: Shutdown connection
+2020-12-09 11:13:29,181 DEBUG [main] MainClientExec:126 - Connection discarded
+2020-12-09 11:13:29,182 DEBUG [main] PoolingHttpClientConnectionManager:282 - Connection released: [id: 2][route: {s}->https://api.github.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
