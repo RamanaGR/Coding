@@ -15,7 +15,7 @@ public class sampe {
 //public void disp(String... args,int i){
 ////Vararg parameter must be the last in the list
 //}
-void disp(List<String> strList){
+/*void disp(List<String> strList){
 
 }
     void sum(int i){
@@ -45,7 +45,7 @@ void disp(List<String> strList){
 
        {
 
-        }
+        }*/
 //        ArrayList al = new ArrayList();
 //        System.out.println(al.size());
 //        String str = "*".repeat(5);
@@ -71,6 +71,10 @@ void disp(List<String> strList){
    // int x= 0;
    //Assert.assertTrue(x>0)?"sf":"fsdvd"
 
+   // }
+
+    public static void main(String[] args) {
+        System.out.println("Helo");
     }
 }
 
