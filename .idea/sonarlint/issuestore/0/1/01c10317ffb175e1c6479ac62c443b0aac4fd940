@@ -1,10 +1,10 @@
 
-t
-java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(«²Äÿÿÿÿÿ
-M	java:S106"9Replace this use of System.out or System.err by a logger.(¯İ&
-S	java:S106"9Replace this use of System.out or System.err by a logger.(§™¢Úúÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¢•ûôüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ°‡ê
 S
 java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ
+t
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(«²Äÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢•ûôüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ°‡ê
+S	java:S106"9Replace this use of System.out or System.err by a logger.(§™¢Úúÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¯İ&
 V	java:S125"<This block of commented-out lines of code should be removed.(¥Ççƒıÿÿÿÿ
