@@ -25,17 +25,22 @@ class Book:
     def __init__(self, pages):
         self.pages = pages
 
-    def __add__(self, other):
-        return self.pages + other.pages
-
+    # def __add__(self, other):
+    #     return self.pages + other.pages
+    # def __add__(self,other):
+    #     total = self.pages+other.pages
+    #     b = Book(total)
+    #     return b
     def __sub__(self, other):
         return self.pages - other.pages
 
     def __str__(self):
-        return self.pages
+        return str(self.pages)
+
 
 b1 = Book(256)
 b2 = Book(456)
+b3 = Book(552)
 
-print('Total Books : {}'.format(b1 + b2))
+print('Total Books : {}'.format(b1 + b2 + b3))
 print(b1)

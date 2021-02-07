@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodingInPy/CodingInPy.iml" filepath="$PROJECT_DIR$/CodingInPy/CodingInPy.iml" />
-
       <module fileurl="file://$PROJECT_DIR$/PythonCodes/PythonCodes.iml" filepath="$PROJECT_DIR$/PythonCodes/PythonCodes.iml" />
-
     </modules>
   </component>
 </project>
