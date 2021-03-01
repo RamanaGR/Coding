@@ -1,0 +1,12 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(œÈ¡÷þÿÿÿÿ8ß³®×ý.
+W	java:S125"<This block of commented-out lines of code should be removed.(†¥Ø8©ß®×ý.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ïåê¸8ŒÙµ×ý.
+L
+java:S3740"/Provide the parametrized type for this generic.(ý«‹ä8ŒÙµ×ý.
+]	java:S125"<This block of commented-out lines of code should be removed.(¢¦ÅËüÿÿÿÿ8¸úÆðþ.
+Z
+java:S1197"8Move the array designator from the variable to the type.(¡þÏÖøÿÿÿÿ8ß³®×ý.
+K
+java:S3740"/Provide the parametrized type for this generic.(“”å8ß³®×ý.
+W	java:S125	"<This block of commented-out lines of code should be removed.(·šÕ8ŒÙµ×ý.
