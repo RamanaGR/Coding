@@ -1,0 +1,9 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(ˆ‡â¯8¿°ïğş.
+N
+java:S1144",Remove this unused private "message" method.(Õ†ÿçşÿÿÿÿ8Ïõğş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ê¯À¬8óåÒïş.
+£
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“ƒ£ëûÿÿÿÿ8¹•ğğş.
+Z
+java:S1128"8Remove this unused import 'org.testng.annotations.Test'.(á½úáùÿÿÿÿ8‚æ ñş.

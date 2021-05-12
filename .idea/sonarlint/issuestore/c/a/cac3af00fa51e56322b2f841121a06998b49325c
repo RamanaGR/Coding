@@ -1,11 +1,11 @@
 
 o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ùþ ×8Ã¦Ô”å.
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¹©µôýÿÿÿÿ8­áâ”å.
-u
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¯’g8®®–•å.
-o
 java:S1192
 "MDefine a constant instead of duplicating this literal "Not Balanced" 4 times.(½ÀþÔÿÿÿÿÿ8Ã¦Ô”å.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Ùþ ×8Ã¦Ô”å.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¹©µôýÿÿÿÿ8­áâ”å.
 l
 java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›¯’g8£–˜•å.
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(›¯’g8®®–•å.

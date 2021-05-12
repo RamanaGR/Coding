@@ -1,0 +1,22 @@
+
+Z
+java:S1197"8Move the array designator from the variable to the type.(Ø¿é¥üÿÿÿÿ8ðå˜Øý.
+Z
+java:S1197"8Move the array designator from the variable to the type.(¦ìµ½ûÿÿÿÿ8ðå˜Øý.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÿ¼Îùÿÿÿÿ8ðå˜Øý.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(™„Å¥ùÿÿÿÿ8ðå˜Øý.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(èƒÈ¥8ðå˜Øý.
+^
+java:S1128"<Remove this unused import 'java.lang.annotation.Annotation'.(¦Ÿàáûÿÿÿÿ8ÿµÕïþ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©Ô›—þÿÿÿÿ8ðå˜Øý.
+M
+java:S1128"+Remove this unused import 'org.junit.Test'.(ùžøèøÿÿÿÿ8“€­ïþ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÖÖ£øÿÿÿÿ8ðå˜Øý.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ØŒñ°ýÿÿÿÿ8ðå˜Øý.
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8µœ·ïþ.
+Z
+java:S1197"8Move the array designator from the variable to the type.(ÿøÆ¾ÿÿÿÿÿ8ðå˜Øý.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ð×Ü¢8ðå˜Øý.
+]	java:S125"<This block of commented-out lines of code should be removed.(ýƒÀýÿÿÿÿ8ßÄäïþ.

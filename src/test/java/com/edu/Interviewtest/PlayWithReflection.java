@@ -45,8 +45,12 @@ public class PlayWithReflection {
         Method[] declaredMethods = personClass.getDeclaredMethods();
         for (Method method : declaredMethods) {
             System.out.println(method);
-            System.out.println("################");
-            System.out.println(method.getModifiers());
+            System.out.println("-------------");
+            int i = method.getModifiers();
+            System.out.println(i);
+            System.out.println(Modifier.toString(i));
+            System.out.println("####################");
+
         }
 
         System.out.println("Static Declared Methods:");

@@ -7,7 +7,7 @@ class MyTestCase(unittest.TestCase):
 
 
 def test_addition(self):
-    ad = Addition()
+    ad = coding.Addition()
     self.assertEqual(True, False)
 
 

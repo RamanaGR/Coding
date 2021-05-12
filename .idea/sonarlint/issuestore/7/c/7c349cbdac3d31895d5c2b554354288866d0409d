@@ -1,0 +1,21 @@
+
+Z
+java:S1197
+"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8Ğóş×ı.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(êØ—ö8Şûóğş.
+J
+java:S1874".Remove this use of "Simple"; it is deprecated.(Š¹C8û÷ğş.
+X	java:S125"<This block of commented-out lines of code should be removed.(ä×›˜8ìòüïş.
+X	java:S125"<This block of commented-out lines of code should be removed.(æ››Á8Ï¤£ğş.
+J
+java:S1874".Remove this use of "Simple"; it is deprecated.(Š¹C8û÷ğş.
+N
+java:S3011",This accessibility update should be removed.(íË©¶úÿÿÿÿ8æıÿïş.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(öâä8šíõïş.
+S
+java:S1128"1Remove this unused import 'java.io.Serializable'.(èãîÂÿÿÿÿÿ8à¾½ğş.
+]	java:S125"<This block of commented-out lines of code should be removed.(ñ®»ÿÿÿÿÿ8¦Ä£ğş.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ìòüïş.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ØŒñ°ıÿÿÿÿ8÷ô—Øı.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ş†ş®üÿÿÿÿ8û÷ğş.
